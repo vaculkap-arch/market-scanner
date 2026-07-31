@@ -1,0 +1,27 @@
+=======================================================
+BACKTEST - HIGH POTENTIAL signaly
+=======================================================
+Ciel: +5.0% do 5 dni
+High-potential setupov: 1527
+Uspesnost (HIGH POTENTIAL): 21.7% | priemer: +0.50%
+
+Pravidla alertu:
+  1. Objemovy spike (samostatne)
+  2. Bullish engulfing + potvrdenie (rast/max/breakout)
+  RSI a MACD sa ignoruju (slaba uspesnost)
+
+--- Referencna uspesnost signalov ---
+  Objemovy spike: 22.6%
+  Bullish engulfing: 22.6%
+  Silny denny rast: 20.8%
+  Zelena sviecka: 20.7%
+  Zatvorenie pri maxime: 20.1%
+  Breakout 20d high: 20.0%
+  RSI odraz: 19.7%
+  MACD cross: 17.3%
+
+--- Podla skore (high potential) ---
+  75-100: 21.7% (53/244), priemer -0.49%
+  60-74: 25.3% (157/620), priemer +0.96%
+  35-59: 18.4% (122/663), priemer +0.42%
+=======================================================

@@ -1,0 +1,78 @@
+name: Market Scan
+
+on:
+  schedule:
+    # Hourly Mon-Fri during typical US session windows (UTC).
+    # MARKET_HOURS_ONLY still skips when the US market is closed.
+    - cron: "0 14-21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install package
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          pip install -r requirements.txt
+
+      - name: Run scan
+        env:
+          # Non-secret defaults (override via repo Variables with the same names if needed)
+          SCAN_MODE: bullish
+          WATCHLIST_SOURCE: sp500
+          BULLISH_MIN_SCORE: "60"
+          BULLISH_VOLUME_THRESHOLD: "2.0"
+          BULLISH_MOMENTUM_PCT: "2.0"
+          HIGH_POTENTIAL_ONLY: "true"
+          BATCH_CHUNK_SIZE: "100"
+          MARKET_HOURS_ONLY: "true"
+          LOOKBACK_DAYS: "20"
+          REGIME_FILTER: "true"
+          FILTER_EXTENDED: "true"
+          MAX_MA20_EXTENSION_PCT: "5.0"
+          MIN_RELATIVE_STRENGTH_PCT: "0.0"
+          EARNINGS_WARN_DAYS: "2"
+          ENABLE_SENTIMENT: "true"
+          GMAIL_MIN_SCORE: "80"
+          GMAIL_MIN_TIER: A
+          GMAIL_COOLDOWN_HOURS: "24"
+          # Secrets (set in GitHub repo Settings → Secrets and variables → Actions)
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_TO: ${{ secrets.GMAIL_TO }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+        run: python -m market_scanner.main --once --force
+
+      - name: Commit scan results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/leaderboard.json config/last_scan.json config/gmail_sent.json || true
+          if git diff --staged --quiet; then
+            echo "No result file changes to commit."
+          else
+            git commit -m "chore: update scan results [skip ci]"
+            git push
+          fi

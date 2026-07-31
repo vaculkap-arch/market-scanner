@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market-scanner"
+version = "0.1.0"
+description = "AI agent for detecting volume spikes on mid/small-cap stocks"
+requires-python = ">=3.11"
+dependencies = [
+    "yfinance>=0.2.40",
+    "pandas>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "schedule>=1.2.0",
+    "pandas-market-calendars>=4.4.0",
+    "streamlit>=1.32.0",
+    "plotly>=5.18.0",
+]
+
+[project.scripts]
+market-scanner = "market_scanner.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

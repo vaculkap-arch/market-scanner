@@ -1,0 +1,6 @@
+# Vlastny zoznam tickerov (pouziva sa ked WATCHLIST_SOURCE=file)
+# Pre indexy nastav v .env: WATCHLIST_SOURCE=russell2000 | sp500 | both
+LCID
+UPST
+SNAP
+IONQ
