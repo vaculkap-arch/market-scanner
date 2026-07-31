@@ -27,7 +27,20 @@ Do gitu **nikdy** nedávaj `.env`.
 4. **Nevytváraj** README / .gitignore (projekt už má svoje súbory).
 5. Create repository.
 
-### Push z PC (PowerShell)
+### Automatický push (odporúčané)
+
+1. Nainštaluj GitHub CLI (ak treba): `winget install --id GitHub.cli -e`
+2. V PowerShelli:
+
+```powershell
+cd C:\Users\VACA\Projects\market-scanner
+gh auth login
+.\scripts\deploy_github.ps1
+```
+
+Skript vytvorí **private** repo, pushne kód, nastaví Gmail Secrets z lokálneho `.env` a spustí testovací workflow.
+
+### Push z PC (PowerShell) — ručne
 
 Ak ešte nemáš Git nainštalovaný: [https://git-scm.com/download/win](https://git-scm.com/download/win).
 
@@ -87,7 +100,7 @@ Po úspechu by sa mali commitnúť `config/leaderboard.json` a `config/last_scan
    - Repository: `TVOJ_USERNAME/market-scanner`
    - Branch: `main`
    - Main file: `app.py`
-3. **Advanced settings → Secrets** — vlož TOML (rovnaké hodnoty ako Secrets, bez úvodzoviek okolo hesla ak nie sú potrebné):
+3. **Advanced settings → Secrets** — skopíruj obsah zo súboru [`streamlit_secrets.toml.example`](streamlit_secrets.toml.example) a doplň svoje Gmail údaje:
 
 ```toml
 WATCHLIST_SOURCE = "sp500"
