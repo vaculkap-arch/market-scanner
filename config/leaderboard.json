@@ -487,12 +487,12 @@
   },
   {
     "ticker": "MNST",
-    "potential_rank": 135.4,
+    "potential_rank": 136.0,
     "score": 66,
     "probability": "VELMI VYSOKA",
     "close_price": 47.380001068115234,
     "price_change_pct": 4.086117292721445,
-    "volume_ratio": 2.125454321410553,
+    "volume_ratio": 2.3139447165107248,
     "rsi": 7.5522532280403,
     "signals": [
       "Objemovy spike",
@@ -561,7 +561,7 @@
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $47.38 (zona $45.78-$47.85) | stop $44.15 | ciel $49.75 (R/R 0.7)",
     "market_bull": true,
     "market_regime": "bull (SPY $767.45 > MA50 $749.53)",
-    "relative_strength_pct": -51.59,
+    "relative_strength_pct": -51.61,
     "pct_above_ma20": -41.0,
     "extended": false,
     "short_interest_pct": 2.62,
@@ -576,8 +576,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-08-18T20:19:53.888692+00:00",
-    "last_seen": "2026-08-18T20:19:53.888680+00:00",
-    "scan_count": 1
+    "last_seen": "2026-08-18T21:20:17.666530+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "J",
