@@ -3191,7 +3191,7 @@
     "probability": "VYSOKA",
     "close_price": 142.08999633789062,
     "price_change_pct": 7.22964472733449,
-    "volume_ratio": 0.8840949493885759,
+    "volume_ratio": 0.8841039759492306,
     "rsi": 52.099588119077126,
     "signals": [
       "Zelena sviecka",
@@ -3261,7 +3261,7 @@
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $142.09 (zona $139.48-$143.51) | stop $110.74 | ciel $149.19 (R/R 0.2)",
     "market_bull": true,
     "market_regime": "bull (SPY $765.91 > MA50 $752.63)",
-    "relative_strength_pct": -3.36,
+    "relative_strength_pct": -3.34,
     "pct_above_ma20": 1.36,
     "extended": false,
     "short_interest_pct": 7.6,
@@ -3276,8 +3276,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-08-25T14:41:22.097163+00:00",
-    "last_seen": "2026-08-25T20:23:57.729830+00:00",
-    "scan_count": 7
+    "last_seen": "2026-08-25T21:24:54.221556+00:00",
+    "scan_count": 8
   },
   {
     "ticker": "WNC",
