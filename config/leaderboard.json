@@ -686,8 +686,8 @@
     "probability": "VELMI VYSOKA",
     "close_price": 58.79999923706055,
     "price_change_pct": 8.929232559649874,
-    "volume_ratio": 5.154571607649807,
-    "rsi": 36.00105795849276,
+    "volume_ratio": 5.362318012506663,
+    "rsi": 35.541072640868975,
     "signals": [
       "Objemovy spike",
       "Zelena sviecka",
@@ -755,9 +755,9 @@
     "entry_action": "vstup_teraz",
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $58.80 (zona $52.84-$59.39) | stop $51.26 | ciel $61.74 (R/R 0.4)",
     "market_bull": true,
-    "market_regime": "bull (SPY $761.72 > MA50 $754.71)",
-    "relative_strength_pct": -13.13,
-    "pct_above_ma20": -15.88,
+    "market_regime": "bull (SPY $761.78 > MA50 $754.71)",
+    "relative_strength_pct": -15.81,
+    "pct_above_ma20": -15.91,
     "extended": false,
     "short_interest_pct": 4.5,
     "revenue_accelerating": true,
@@ -771,8 +771,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-08-11T20:13:37.836428+00:00",
-    "last_seen": "2026-09-01T20:27:07.458581+00:00",
-    "scan_count": 7
+    "last_seen": "2026-09-01T22:58:05.954378+00:00",
+    "scan_count": 8
   },
   {
     "ticker": "DGX",
@@ -1939,8 +1939,8 @@
     "probability": "VELMI VYSOKA",
     "close_price": 254.88999938964844,
     "price_change_pct": 4.057972061745552,
-    "volume_ratio": 2.064478522248076,
-    "rsi": 33.46932553590203,
+    "volume_ratio": 2.0717085563200817,
+    "rsi": 33.707030005329386,
     "signals": [
       "Objemovy spike",
       "Zelena sviecka",
@@ -2008,9 +2008,9 @@
     "entry_action": "vstup_teraz",
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $254.89 (zona $248.70-$257.44) | stop $235.57 | ciel $267.63 (R/R 0.7)",
     "market_bull": true,
-    "market_regime": "bull (SPY $761.72 > MA50 $754.71)",
-    "relative_strength_pct": -7.82,
-    "pct_above_ma20": -7.67,
+    "market_regime": "bull (SPY $761.78 > MA50 $754.71)",
+    "relative_strength_pct": -9.03,
+    "pct_above_ma20": -8.05,
     "extended": false,
     "short_interest_pct": 1.87,
     "revenue_accelerating": true,
@@ -2024,8 +2024,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-09-01T20:27:07.458639+00:00",
-    "last_seen": "2026-09-01T20:27:07.458581+00:00",
-    "scan_count": 1
+    "last_seen": "2026-09-01T22:58:05.954378+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "SRNE",
@@ -8428,13 +8428,13 @@
   },
   {
     "ticker": "BBY",
-    "potential_rank": 117.0,
+    "potential_rank": 117.1,
     "score": 66,
     "probability": "VYSOKA",
     "close_price": 82.62999725341797,
     "price_change_pct": 3.0941929885532433,
-    "volume_ratio": 1.1475882508356978,
-    "rsi": 49.32751195369446,
+    "volume_ratio": 1.1733978488491161,
+    "rsi": 48.83051122460493,
     "signals": [
       "Zelena sviecka",
       "Zatvorenie pri maxime",
@@ -8501,9 +8501,9 @@
     "entry_action": "vstup_teraz",
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $82.63 (zona $79.11-$83.46) | stop $75.17 | ciel $86.76 (R/R 0.6)",
     "market_bull": true,
-    "market_regime": "bull (SPY $761.72 > MA50 $754.71)",
-    "relative_strength_pct": -0.62,
-    "pct_above_ma20": -2.19,
+    "market_regime": "bull (SPY $761.78 > MA50 $754.71)",
+    "relative_strength_pct": -1.17,
+    "pct_above_ma20": -2.41,
     "extended": false,
     "short_interest_pct": 7.52,
     "revenue_accelerating": false,
@@ -8517,8 +8517,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-08-26T16:15:32.205607+00:00",
-    "last_seen": "2026-09-01T20:27:07.458581+00:00",
-    "scan_count": 3
+    "last_seen": "2026-09-01T22:58:05.954378+00:00",
+    "scan_count": 4
   },
   {
     "ticker": "AWK",
