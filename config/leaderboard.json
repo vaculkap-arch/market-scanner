@@ -2081,12 +2081,12 @@
   },
   {
     "ticker": "MLM",
-    "potential_rank": 129.2,
+    "potential_rank": 129.3,
     "score": 66,
     "probability": "VELMI VYSOKA",
     "close_price": 517.0700073242188,
     "price_change_pct": 2.4063205207498313,
-    "volume_ratio": 2.008625142867428,
+    "volume_ratio": 2.0240215268590767,
     "rsi": 37.5769899149434,
     "signals": [
       "Objemovy spike",
@@ -2155,7 +2155,7 @@
     "entry_action": "vstup_teraz",
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $517.07 (zona $505.29-$522.24) | stop $490.13 | ciel $542.92 (R/R 1.0)",
     "market_bull": true,
-    "market_regime": "bull (SPY $765.20 > MA50 $755.34)",
+    "market_regime": "bull (SPY $765.16 > MA50 $755.34)",
     "relative_strength_pct": -4.49,
     "pct_above_ma20": -3.04,
     "extended": false,
@@ -2171,8 +2171,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-09-02T20:26:25.910916+00:00",
-    "last_seen": "2026-09-02T20:26:25.910904+00:00",
-    "scan_count": 1
+    "last_seen": "2026-09-02T22:59:34.288290+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "RMTI",
@@ -4083,7 +4083,7 @@
     "probability": "VYSOKA",
     "close_price": 82.45999908447266,
     "price_change_pct": 5.8808448800422655,
-    "volume_ratio": 1.208049167771185,
+    "volume_ratio": 1.2155602324523973,
     "rsi": 48.68146281222147,
     "signals": [
       "Zelena sviecka",
@@ -4151,7 +4151,7 @@
     "entry_action": "limit_order",
     "entry_summary": "Limitny prikaz v buy zone | ideal $81.76 (zona $81.05-$82.46) | stop $75.69 | ciel $85.85 (R/R 0.7)",
     "market_bull": true,
-    "market_regime": "bull (SPY $765.20 > MA50 $755.34)",
+    "market_regime": "bull (SPY $765.16 > MA50 $755.34)",
     "relative_strength_pct": -0.15,
     "pct_above_ma20": 1.73,
     "extended": false,
@@ -4167,8 +4167,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-08-21T19:23:15.690645+00:00",
-    "last_seen": "2026-09-02T20:26:25.910904+00:00",
-    "scan_count": 5
+    "last_seen": "2026-09-02T22:59:34.288290+00:00",
+    "scan_count": 6
   },
   {
     "ticker": "CDW",
@@ -4462,7 +4462,7 @@
     "probability": "VYSOKA",
     "close_price": 31.280000686645508,
     "price_change_pct": 2.692060495139204,
-    "volume_ratio": 0.9550010090854272,
+    "volume_ratio": 0.9641147272207349,
     "rsi": 58.92905532702078,
     "signals": [
       "Zelena sviecka",
@@ -4531,7 +4531,7 @@
     "entry_action": "limit_order",
     "entry_summary": "Limitny prikaz v buy zone | ideal $30.94 (zona $30.60-$31.28) | stop $28.26 | ciel $32.49 (R/R 0.6)",
     "market_bull": true,
-    "market_regime": "bull (SPY $765.20 > MA50 $755.34)",
+    "market_regime": "bull (SPY $765.16 > MA50 $755.34)",
     "relative_strength_pct": 8.57,
     "pct_above_ma20": 2.22,
     "extended": false,
@@ -4547,8 +4547,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +8.6%",
     "first_seen": "2026-09-02T17:35:15.870540+00:00",
-    "last_seen": "2026-09-02T20:26:25.910904+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-02T22:59:34.288290+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "IRWD",
@@ -5161,7 +5161,7 @@
     "probability": "VYSOKA",
     "close_price": 956.0800170898438,
     "price_change_pct": 2.4254386558560475,
-    "volume_ratio": 0.7260294460660051,
+    "volume_ratio": 0.7342178115311376,
     "rsi": 50.90582306232594,
     "signals": [
       "Zelena sviecka",
@@ -5229,7 +5229,7 @@
     "entry_action": "limit_order",
     "entry_summary": "Limitny prikaz v buy zone | ideal $944.30 (zona $932.52-$956.08) | stop $810.46 | ciel $991.51 (R/R 0.4)",
     "market_bull": true,
-    "market_regime": "bull (SPY $765.20 > MA50 $755.34)",
+    "market_regime": "bull (SPY $765.16 > MA50 $755.34)",
     "relative_strength_pct": 8.96,
     "pct_above_ma20": 2.53,
     "extended": false,
@@ -5245,8 +5245,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +9.0%",
     "first_seen": "2026-07-17T14:39:43.413928+00:00",
-    "last_seen": "2026-09-02T20:26:25.910904+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-02T22:59:34.288290+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "SYY",
