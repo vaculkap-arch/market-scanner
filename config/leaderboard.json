@@ -97,12 +97,12 @@
   },
   {
     "ticker": "HPE",
-    "potential_rank": 163.4,
+    "potential_rank": 163.5,
     "score": 84,
     "probability": "VELMI VYSOKA",
     "close_price": 54.439998626708984,
     "price_change_pct": 5.03568725342101,
-    "volume_ratio": 4.008531913402929,
+    "volume_ratio": 4.036799775800462,
     "rsi": 38.22393765526795,
     "signals": [
       "Objemovy spike",
@@ -172,7 +172,7 @@
     "entry_action": "vstup_teraz",
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $54.44 (zona $49.55-$54.98) | stop $48.06 | ciel $57.16 (R/R 0.4)",
     "market_bull": true,
-    "market_regime": "bull (SPY $773.15 > MA50 $756.14)",
+    "market_regime": "bull (SPY $773.17 > MA50 $756.14)",
     "relative_strength_pct": 4.86,
     "pct_above_ma20": -0.07,
     "extended": false,
@@ -188,8 +188,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +4.9%",
     "first_seen": "2026-08-26T18:57:25.657603+00:00",
-    "last_seen": "2026-09-03T20:25:52.246245+00:00",
-    "scan_count": 3
+    "last_seen": "2026-09-03T22:58:36.081836+00:00",
+    "scan_count": 4
   },
   {
     "ticker": "PFE",
@@ -1174,7 +1174,7 @@
     "probability": "VELMI VYSOKA",
     "close_price": 185.3800048828125,
     "price_change_pct": 2.5502021914007686,
-    "volume_ratio": 2.6055358562019415,
+    "volume_ratio": 2.6127534384167452,
     "rsi": 26.371969303004064,
     "signals": [
       "Objemovy spike",
@@ -1243,7 +1243,7 @@
     "entry_action": "vstup_teraz",
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $185.38 (zona $177.99-$187.23) | stop $172.65 | ciel $194.65 (R/R 0.7)",
     "market_bull": true,
-    "market_regime": "bull (SPY $773.15 > MA50 $756.14)",
+    "market_regime": "bull (SPY $773.17 > MA50 $756.14)",
     "relative_strength_pct": -2.16,
     "pct_above_ma20": -4.19,
     "extended": false,
@@ -1259,8 +1259,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-09-03T20:25:52.246290+00:00",
-    "last_seen": "2026-09-03T20:25:52.246245+00:00",
-    "scan_count": 1
+    "last_seen": "2026-09-03T22:58:36.081836+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "MNST",
@@ -7198,7 +7198,7 @@
     "probability": "VYSOKA",
     "close_price": 37.869998931884766,
     "price_change_pct": 2.351348464553421,
-    "volume_ratio": 0.6386021937810255,
+    "volume_ratio": 0.643952907071196,
     "rsi": 43.38481765797561,
     "signals": [
       "Zelena sviecka",
@@ -7266,24 +7266,24 @@
     "entry_action": "cakat_pullback",
     "entry_summary": "Cakat na pullback k MA20/podpore | ideal $36.61 (zona $35.88-$37.34) | stop $28.74 | ciel $38.44 (R/R 0.2)",
     "market_bull": true,
-    "market_regime": "bull (SPY $773.15 > MA50 $756.14)",
-    "relative_strength_pct": 29.93,
+    "market_regime": "bull (SPY $773.17 > MA50 $756.14)",
+    "relative_strength_pct": 29.92,
     "pct_above_ma20": 3.44,
     "extended": false,
-    "short_interest_pct": 18.41,
+    "short_interest_pct": 18.04,
     "revenue_accelerating": false,
     "earnings_beat": false,
     "days_to_earnings": 61,
     "earnings_warning": "",
-    "fundamentals_summary": "short 18.4%, earnings miss",
+    "fundamentals_summary": "short 18.0%, earnings miss",
     "news_sentiment": "neutralny",
     "news_score": 0.0,
     "sentiment_summary": "Spravy: neutralny (0 clankov)",
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +29.9%",
     "first_seen": "2026-09-03T17:28:57.514433+00:00",
-    "last_seen": "2026-09-03T20:25:52.246245+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-03T22:58:36.081836+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "JOUT",
@@ -9480,7 +9480,7 @@
     "probability": "VYSOKA",
     "close_price": 191.44000244140625,
     "price_change_pct": 2.8694229783745007,
-    "volume_ratio": 0.6611323627997053,
+    "volume_ratio": 0.68005180961209,
     "rsi": 44.109190012408725,
     "signals": [
       "Zelena sviecka",
@@ -9549,7 +9549,7 @@
     "entry_action": "vstup_teraz",
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $191.44 (zona $183.16-$193.35) | stop $177.66 | ciel $201.01 (R/R 0.7)",
     "market_bull": true,
-    "market_regime": "bull (SPY $773.15 > MA50 $756.14)",
+    "market_regime": "bull (SPY $773.17 > MA50 $756.14)",
     "relative_strength_pct": 0.57,
     "pct_above_ma20": -1.45,
     "extended": false,
@@ -9565,8 +9565,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +0.6%",
     "first_seen": "2026-08-26T14:40:41.419242+00:00",
-    "last_seen": "2026-09-03T20:25:52.246245+00:00",
-    "scan_count": 4
+    "last_seen": "2026-09-03T22:58:36.081836+00:00",
+    "scan_count": 5
   },
   {
     "ticker": "APD",
