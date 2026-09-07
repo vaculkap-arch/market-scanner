@@ -3129,8 +3129,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +2.6%",
     "first_seen": "2026-08-07T16:39:10.351975+00:00",
-    "last_seen": "2026-09-07T18:33:50.834244+00:00",
-    "scan_count": 5
+    "last_seen": "2026-09-07T21:53:41.334376+00:00",
+    "scan_count": 6
   },
   {
     "ticker": "DELL",
@@ -6303,8 +6303,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-08-07T16:39:10.351934+00:00",
-    "last_seen": "2026-09-07T18:33:50.834244+00:00",
-    "scan_count": 7
+    "last_seen": "2026-09-07T21:53:41.334376+00:00",
+    "scan_count": 8
   },
   {
     "ticker": "OMC",
@@ -9951,8 +9951,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-09-04T20:12:07.913298+00:00",
-    "last_seen": "2026-09-07T18:33:50.834244+00:00",
-    "scan_count": 3
+    "last_seen": "2026-09-07T21:53:41.334376+00:00",
+    "scan_count": 4
   },
   {
     "ticker": "APD",
