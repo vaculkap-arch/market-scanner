@@ -398,7 +398,7 @@
     "probability": "VELMI VYSOKA",
     "close_price": 129.57000732421875,
     "price_change_pct": 2.6053282995923337,
-    "volume_ratio": 2.4281209790726908,
+    "volume_ratio": 2.4284744509354432,
     "rsi": 46.503342149898366,
     "signals": [
       "Objemovy spike",
@@ -484,8 +484,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +0.5%",
     "first_seen": "2026-09-01T17:33:38.406421+00:00",
-    "last_seen": "2026-09-08T20:37:01.631018+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-08T23:09:11.738082+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "GDDY",
@@ -686,7 +686,7 @@
     "probability": "VELMI VYSOKA",
     "close_price": 195.32000732421875,
     "price_change_pct": 5.005114290802619,
-    "volume_ratio": 2.223629717387122,
+    "volume_ratio": 2.223664145326407,
     "rsi": 53.161322083646525,
     "signals": [
       "Objemovy spike",
@@ -771,8 +771,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +4.9%",
     "first_seen": "2026-09-08T17:44:44.067964+00:00",
-    "last_seen": "2026-09-08T20:37:01.631018+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-08T23:09:11.738082+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "ACGL",
