@@ -1466,7 +1466,7 @@
     "probability": "VELMI VYSOKA",
     "close_price": 983.1900024414062,
     "price_change_pct": 5.3455496947359284,
-    "volume_ratio": 2.390791991201772,
+    "volume_ratio": 2.391457884508188,
     "rsi": 28.337975911164875,
     "signals": [
       "Objemovy spike",
@@ -1536,7 +1536,7 @@
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $983.19 (zona $913.04-$993.02) | stop $867.30 | ciel $1032.35 (R/R 0.4)",
     "market_bull": true,
     "market_regime": "bull (SPY $762.40 > MA50 $758.02)",
-    "relative_strength_pct": -1.87,
+    "relative_strength_pct": -1.86,
     "pct_above_ma20": -10.35,
     "extended": false,
     "short_interest_pct": 10.01,
@@ -1551,8 +1551,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-08-21T14:31:00.816587+00:00",
-    "last_seen": "2026-09-09T20:19:51.071253+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-09T22:54:21.044837+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "NTAP",
