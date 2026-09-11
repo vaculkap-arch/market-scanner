@@ -971,7 +971,7 @@
     "probability": "VELMI VYSOKA",
     "close_price": 252.22999572753906,
     "price_change_pct": 1.3663922643833082,
-    "volume_ratio": 2.290507428336763,
+    "volume_ratio": 2.299091402978179,
     "rsi": 35.99611648255278,
     "signals": [
       "Objemovy spike",
@@ -991,9 +991,19 @@
     "insider_summary": "1 nakup(ov) od RICKS DAVID A ($1,945,130)",
     "insider_cluster": false,
     "insider_latest_date": "2026-06-25",
-    "earnings_summary": "Q2 2026: trzby $6.62B, EPS 4.25, marza 25.9% +3.4% QoQ",
+    "earnings_summary": "Q3 2026: trzby n/a, EPS 4.62, marza n/a%",
     "earnings_trend": "rastuca",
     "earnings_quarters": [
+      {
+        "period": "Q3 2026",
+        "revenue": null,
+        "revenue_fmt": "n/a",
+        "net_income": null,
+        "net_income_fmt": "n/a",
+        "eps": 4.62,
+        "revenue_qoq_pct": null,
+        "net_margin_pct": null
+      },
       {
         "period": "Q2 2026",
         "revenue": 6618000000.0,
@@ -1021,18 +1031,8 @@
         "net_income": 1856000000.0,
         "net_income_fmt": "$1.86B",
         "eps": 4.45,
-        "revenue_qoq_pct": 3.4,
-        "net_margin_pct": 30.0
-      },
-      {
-        "period": "Q3 2025",
-        "revenue": 5988000000.0,
-        "revenue_fmt": "$5.99B",
-        "net_income": 1772000000.0,
-        "net_income_fmt": "$1.77B",
-        "eps": 4.18,
         "revenue_qoq_pct": null,
-        "net_margin_pct": 29.6
+        "net_margin_pct": 30.0
       }
     ],
     "entry_ideal": 252.23,
@@ -1044,7 +1044,7 @@
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $252.23 (zona $245.95-$254.75) | stop $238.58 | ciel $264.84 (R/R 0.9)",
     "market_bull": true,
     "market_regime": "bull (SPY $764.29 > MA50 $758.62)",
-    "relative_strength_pct": -1.93,
+    "relative_strength_pct": -1.94,
     "pct_above_ma20": -7.09,
     "extended": false,
     "short_interest_pct": 4.89,
@@ -1059,8 +1059,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, insider",
     "first_seen": "2026-09-11T17:31:04.101295+00:00",
-    "last_seen": "2026-09-11T20:23:40.382826+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-11T22:57:49.330209+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "Q",
@@ -2329,7 +2329,7 @@
     "probability": "VYSOKA",
     "close_price": 51.13999938964844,
     "price_change_pct": 3.188050792123097,
-    "volume_ratio": 1.145914801912354,
+    "volume_ratio": 1.1462966450114553,
     "rsi": 37.773136980227484,
     "signals": [
       "Zelena sviecka",
@@ -2402,7 +2402,7 @@
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $51.14 (zona $49.37-$51.65) | stop $44.86 | ciel $53.70 (R/R 0.4)",
     "market_bull": true,
     "market_regime": "bull (SPY $764.29 > MA50 $758.62)",
-    "relative_strength_pct": 10.44,
+    "relative_strength_pct": 10.43,
     "pct_above_ma20": -0.16,
     "extended": false,
     "short_interest_pct": 5.9,
@@ -2417,8 +2417,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, insider, RS +10.4%",
     "first_seen": "2026-09-11T20:23:40.382868+00:00",
-    "last_seen": "2026-09-11T20:23:40.382826+00:00",
-    "scan_count": 1
+    "last_seen": "2026-09-11T22:57:49.330209+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "WDC",
@@ -5615,7 +5615,7 @@
     "probability": "VELMI VYSOKA",
     "close_price": 58.4900016784668,
     "price_change_pct": 2.704127998062308,
-    "volume_ratio": 2.083048446260022,
+    "volume_ratio": 2.092330469572291,
     "rsi": 53.050672345186236,
     "signals": [
       "Objemovy spike",
@@ -5700,8 +5700,8 @@
     "tier": "C",
     "tier_reason": "Blizke earnings: Pozor: earnings o 0 dni",
     "first_seen": "2026-09-01T17:33:38.406476+00:00",
-    "last_seen": "2026-09-11T20:23:40.382826+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-11T22:57:49.330209+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "CL",
