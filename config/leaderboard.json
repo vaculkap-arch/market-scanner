@@ -17059,7 +17059,7 @@
     "probability": "VYSOKA",
     "close_price": 56.45000076293945,
     "price_change_pct": 2.2830262141385442,
-    "volume_ratio": 1.377063275979828,
+    "volume_ratio": 1.3770763746596681,
     "rsi": 35.53622868298787,
     "signals": [
       "Zelena sviecka",
@@ -17147,8 +17147,8 @@
     "tier": "C",
     "tier_reason": "Bear rezim: bear (SPY $757.39 < MA50 $759.06)",
     "first_seen": "2026-09-15T17:55:42.340819+00:00",
-    "last_seen": "2026-09-15T20:48:31.774871+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-15T23:23:27.310965+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "NEOG",
