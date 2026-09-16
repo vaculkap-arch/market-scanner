@@ -1353,12 +1353,12 @@
   },
   {
     "ticker": "AXON",
-    "potential_rank": 139.1,
+    "potential_rank": 139.2,
     "score": 84,
     "probability": "VELMI VYSOKA",
     "close_price": 468.4200134277344,
     "price_change_pct": 5.958203867064907,
-    "volume_ratio": 3.0533725164206014,
+    "volume_ratio": 3.072951961691117,
     "rsi": 25.53312586655538,
     "signals": [
       "Objemovy spike",
@@ -1443,8 +1443,8 @@
     "tier": "C",
     "tier_reason": "Bear rezim: bear (SPY $754.05 < MA50 $759.19)",
     "first_seen": "2026-09-14T19:00:42.057027+00:00",
-    "last_seen": "2026-09-16T20:48:11.918228+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-16T23:30:56.355890+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "DGX",
@@ -17633,7 +17633,7 @@
     "probability": "VYSOKA",
     "close_price": 378.4700012207031,
     "price_change_pct": 2.929015136286669,
-    "volume_ratio": 0.8774523717150267,
+    "volume_ratio": 0.8782114634594572,
     "rsi": 41.06950688344007,
     "signals": [
       "Zelena sviecka",
@@ -17718,8 +17718,8 @@
     "tier": "C",
     "tier_reason": "Bear rezim: bear (SPY $754.05 < MA50 $759.19)",
     "first_seen": "2026-09-16T20:48:11.918267+00:00",
-    "last_seen": "2026-09-16T20:48:11.918228+00:00",
-    "scan_count": 1
+    "last_seen": "2026-09-16T23:30:56.355890+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "KVUE",
