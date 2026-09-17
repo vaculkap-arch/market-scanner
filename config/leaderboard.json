@@ -3095,7 +3095,7 @@
     "probability": "VELMI VYSOKA",
     "close_price": 35.54999923706055,
     "price_change_pct": 4.374626552240687,
-    "volume_ratio": 2.010177978766764,
+    "volume_ratio": 2.0101880256789944,
     "rsi": 27.13832485264878,
     "signals": [
       "Objemovy spike",
@@ -3180,8 +3180,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-09-04T17:21:51.931435+00:00",
-    "last_seen": "2026-09-17T20:52:52.341787+00:00",
-    "scan_count": 2
+    "last_seen": "2026-09-17T23:21:27.203467+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "SRNE",
