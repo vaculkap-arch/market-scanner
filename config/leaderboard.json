@@ -3853,7 +3853,7 @@
     "probability": "VYSOKA",
     "close_price": 464.6000061035156,
     "price_change_pct": 3.6660178466916817,
-    "volume_ratio": 1.3135101296358038,
+    "volume_ratio": 1.316396713016533,
     "rsi": 54.141956828327736,
     "signals": [
       "Zelena sviecka",
@@ -3938,8 +3938,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +10.1%",
     "first_seen": "2026-08-13T14:54:03.837154+00:00",
-    "last_seen": "2026-09-22T20:47:46.973721+00:00",
-    "scan_count": 9
+    "last_seen": "2026-09-22T23:27:44.567129+00:00",
+    "scan_count": 10
   },
   {
     "ticker": "INTU",
@@ -4138,7 +4138,7 @@
     "probability": "VYSOKA",
     "close_price": 124.86000061035156,
     "price_change_pct": 2.49548589980542,
-    "volume_ratio": 1.1330248049785256,
+    "volume_ratio": 1.1420299763344728,
     "rsi": 62.563688230625715,
     "signals": [
       "Zelena sviecka",
@@ -4225,8 +4225,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, insider, RS +2.3%",
     "first_seen": "2026-08-20T21:24:15.230361+00:00",
-    "last_seen": "2026-09-22T20:47:46.973721+00:00",
-    "scan_count": 4
+    "last_seen": "2026-09-22T23:27:44.567129+00:00",
+    "scan_count": 5
   },
   {
     "ticker": "CME",
@@ -10827,7 +10827,7 @@
     "probability": "VYSOKA",
     "close_price": 289.7099914550781,
     "price_change_pct": 2.2337449584289812,
-    "volume_ratio": 1.429582917581321,
+    "volume_ratio": 1.430361205348234,
     "rsi": 65.49888076976313,
     "signals": [
       "Zelena sviecka",
@@ -10912,8 +10912,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +0.7%",
     "first_seen": "2026-09-22T20:47:46.973804+00:00",
-    "last_seen": "2026-09-22T20:47:46.973721+00:00",
-    "scan_count": 1
+    "last_seen": "2026-09-22T23:27:44.567129+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "ALLE",
