@@ -588,7 +588,7 @@
     "probability": "VELMI VYSOKA",
     "close_price": 1120.780029296875,
     "price_change_pct": 4.376087365775978,
-    "volume_ratio": 2.1999405040925972,
+    "volume_ratio": 2.201775862690657,
     "rsi": 60.52774037106465,
     "signals": [
       "Objemovy spike",
@@ -674,8 +674,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +10.0%",
     "first_seen": "2026-10-15T21:00:47.001958+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 1
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "ALB",
@@ -4322,8 +4322,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, insider, RS +4.2%",
     "first_seen": "2026-09-10T20:21:57.163347+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 5
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 6
   },
   {
     "ticker": "KDP",
@@ -8773,6 +8773,101 @@
     "scan_count": 3
   },
   {
+    "ticker": "MCHP",
+    "potential_rank": 126.0,
+    "score": 66,
+    "probability": "VYSOKA",
+    "close_price": 74.26000213623047,
+    "price_change_pct": 4.224564401726974,
+    "volume_ratio": 1.6902933535862392,
+    "rsi": 39.05092380455643,
+    "signals": [
+      "Zelena sviecka",
+      "Zatvorenie pri maxime",
+      "Silny denny rast",
+      "Bullish engulfing",
+      "Trzby zrychluju",
+      "Earnings beat"
+    ],
+    "backtest_hint": "top signal Bullish engulfing (22.6% historicka uspesnost)",
+    "insider_buys": 0,
+    "insider_buy_value": 0.0,
+    "insider_names": [],
+    "insider_summary": "Ziadne insider nakupy v obdobi",
+    "insider_cluster": false,
+    "insider_latest_date": null,
+    "earnings_summary": "Q2 2026: trzby $1.48B, EPS 0.37, marza 15.5% +13.2% QoQ",
+    "earnings_trend": "rastuca",
+    "earnings_quarters": [
+      {
+        "period": "Q2 2026",
+        "revenue": 1484700000.0,
+        "revenue_fmt": "$1.48B",
+        "net_income": 229800000.0,
+        "net_income_fmt": "$230M",
+        "eps": 0.37,
+        "revenue_qoq_pct": 13.2,
+        "net_margin_pct": 15.5
+      },
+      {
+        "period": "Q1 2026",
+        "revenue": 1311200000.0,
+        "revenue_fmt": "$1.31B",
+        "net_income": 144200000.0,
+        "net_income_fmt": "$144M",
+        "eps": 0.21,
+        "revenue_qoq_pct": 10.6,
+        "net_margin_pct": 11.0
+      },
+      {
+        "period": "Q4 2025",
+        "revenue": 1186000000.0,
+        "revenue_fmt": "$1.19B",
+        "net_income": 62700000.0,
+        "net_income_fmt": "$63M",
+        "eps": 0.06,
+        "revenue_qoq_pct": 4.0,
+        "net_margin_pct": 5.3
+      },
+      {
+        "period": "Q3 2025",
+        "revenue": 1140400000.0,
+        "revenue_fmt": "$1.14B",
+        "net_income": 41700000.0,
+        "net_income_fmt": "$42M",
+        "eps": 0.03,
+        "revenue_qoq_pct": null,
+        "net_margin_pct": 3.7
+      }
+    ],
+    "entry_ideal": 74.26,
+    "entry_zone_low": 70.14,
+    "entry_zone_high": 75.0,
+    "stop_loss": 68.03,
+    "target_price": 77.97,
+    "entry_action": "vstup_teraz",
+    "entry_summary": "Vstup teraz pri aktualnej cene | ideal $74.26 (zona $70.14-$75.00) | stop $68.03 | ciel $77.97 (R/R 0.6)",
+    "market_bull": true,
+    "market_regime": "bull (SPY $771.79 > MA50 $767.47)",
+    "relative_strength_pct": 8.48,
+    "pct_above_ma20": -3.08,
+    "extended": false,
+    "short_interest_pct": 8.21,
+    "revenue_accelerating": true,
+    "earnings_beat": true,
+    "days_to_earnings": 21,
+    "earnings_warning": "",
+    "fundamentals_summary": "short 8.2%, trzby zrychluju, earnings beat",
+    "news_sentiment": "neutralny",
+    "news_score": 0.0,
+    "sentiment_summary": "Spravy: neutralny (0 clankov)",
+    "tier": "A",
+    "tier_reason": "Silny setup: fundamenty OK, RS +8.5%",
+    "first_seen": "2026-09-18T23:00:01.423266+00:00",
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 4
+  },
+  {
     "ticker": "DELL",
     "potential_rank": 125.9,
     "score": 66,
@@ -9056,101 +9151,6 @@
     "first_seen": "2026-10-14T18:17:58.952588+00:00",
     "last_seen": "2026-10-14T22:02:37.148820+00:00",
     "scan_count": 2
-  },
-  {
-    "ticker": "MCHP",
-    "potential_rank": 125.9,
-    "score": 66,
-    "probability": "VYSOKA",
-    "close_price": 74.26000213623047,
-    "price_change_pct": 4.224564401726974,
-    "volume_ratio": 1.673818822428235,
-    "rsi": 39.05092380455643,
-    "signals": [
-      "Zelena sviecka",
-      "Zatvorenie pri maxime",
-      "Silny denny rast",
-      "Bullish engulfing",
-      "Trzby zrychluju",
-      "Earnings beat"
-    ],
-    "backtest_hint": "top signal Bullish engulfing (22.6% historicka uspesnost)",
-    "insider_buys": 0,
-    "insider_buy_value": 0.0,
-    "insider_names": [],
-    "insider_summary": "Ziadne insider nakupy v obdobi",
-    "insider_cluster": false,
-    "insider_latest_date": null,
-    "earnings_summary": "Q2 2026: trzby $1.48B, EPS 0.37, marza 15.5% +13.2% QoQ",
-    "earnings_trend": "rastuca",
-    "earnings_quarters": [
-      {
-        "period": "Q2 2026",
-        "revenue": 1484700000.0,
-        "revenue_fmt": "$1.48B",
-        "net_income": 229800000.0,
-        "net_income_fmt": "$230M",
-        "eps": 0.37,
-        "revenue_qoq_pct": 13.2,
-        "net_margin_pct": 15.5
-      },
-      {
-        "period": "Q1 2026",
-        "revenue": 1311200000.0,
-        "revenue_fmt": "$1.31B",
-        "net_income": 144200000.0,
-        "net_income_fmt": "$144M",
-        "eps": 0.21,
-        "revenue_qoq_pct": 10.6,
-        "net_margin_pct": 11.0
-      },
-      {
-        "period": "Q4 2025",
-        "revenue": 1186000000.0,
-        "revenue_fmt": "$1.19B",
-        "net_income": 62700000.0,
-        "net_income_fmt": "$63M",
-        "eps": 0.06,
-        "revenue_qoq_pct": 4.0,
-        "net_margin_pct": 5.3
-      },
-      {
-        "period": "Q3 2025",
-        "revenue": 1140400000.0,
-        "revenue_fmt": "$1.14B",
-        "net_income": 41700000.0,
-        "net_income_fmt": "$42M",
-        "eps": 0.03,
-        "revenue_qoq_pct": null,
-        "net_margin_pct": 3.7
-      }
-    ],
-    "entry_ideal": 74.26,
-    "entry_zone_low": 70.14,
-    "entry_zone_high": 75.0,
-    "stop_loss": 68.03,
-    "target_price": 77.97,
-    "entry_action": "vstup_teraz",
-    "entry_summary": "Vstup teraz pri aktualnej cene | ideal $74.26 (zona $70.14-$75.00) | stop $68.03 | ciel $77.97 (R/R 0.6)",
-    "market_bull": true,
-    "market_regime": "bull (SPY $771.79 > MA50 $767.47)",
-    "relative_strength_pct": 8.48,
-    "pct_above_ma20": -3.08,
-    "extended": false,
-    "short_interest_pct": 8.21,
-    "revenue_accelerating": true,
-    "earnings_beat": true,
-    "days_to_earnings": 21,
-    "earnings_warning": "",
-    "fundamentals_summary": "short 8.2%, trzby zrychluju, earnings beat",
-    "news_sentiment": "neutralny",
-    "news_score": 0.0,
-    "sentiment_summary": "Spravy: neutralny (0 clankov)",
-    "tier": "A",
-    "tier_reason": "Silny setup: fundamenty OK, RS +8.5%",
-    "first_seen": "2026-09-18T23:00:01.423266+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 3
   },
   {
     "ticker": "LITE",
@@ -10952,8 +10952,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +5.0%",
     "first_seen": "2026-10-15T17:59:16.363678+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 2
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "KR",
@@ -11151,7 +11151,7 @@
     "probability": "VYSOKA",
     "close_price": 279.2900085449219,
     "price_change_pct": 6.521990138558813,
-    "volume_ratio": 0.8180394860945667,
+    "volume_ratio": 0.8203425910964643,
     "rsi": 34.425751510241966,
     "signals": [
       "Zelena sviecka",
@@ -11235,8 +11235,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-09-10T17:28:30.806952+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 5
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 6
   },
   {
     "ticker": "OFIX",
@@ -11947,7 +11947,7 @@
     "probability": "VYSOKA",
     "close_price": 28.799999237060547,
     "price_change_pct": 3.1149263243063547,
-    "volume_ratio": 1.1301585353986232,
+    "volume_ratio": 1.1302046532487697,
     "rsi": 29.215679601356683,
     "signals": [
       "Zelena sviecka",
@@ -12032,8 +12032,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-10-15T21:00:47.002023+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 1
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "SWK",
@@ -13174,8 +13174,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-10-15T21:00:47.002030+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 1
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "AXON",
@@ -13562,7 +13562,7 @@
     "probability": "VYSOKA",
     "close_price": 183.80999755859375,
     "price_change_pct": 6.316153743707592,
-    "volume_ratio": 0.9798764418281343,
+    "volume_ratio": 0.9861963854158066,
     "rsi": 41.802083317189684,
     "signals": [
       "Zelena sviecka",
@@ -13648,8 +13648,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +9.3%",
     "first_seen": "2026-08-13T20:38:19.977964+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 5
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 6
   },
   {
     "ticker": "COHR",
@@ -14929,7 +14929,7 @@
     "probability": "VYSOKA",
     "close_price": 193.0500030517578,
     "price_change_pct": 4.912781269925009,
-    "volume_ratio": 0.8142586851687826,
+    "volume_ratio": 0.8143056785749434,
     "rsi": 49.77607804599327,
     "signals": [
       "Zelena sviecka",
@@ -15013,8 +15013,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +2.9%",
     "first_seen": "2026-09-10T17:28:30.806979+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 3
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 4
   },
   {
     "ticker": "SMCI",
@@ -23536,7 +23536,7 @@
     "probability": "VYSOKA",
     "close_price": 234.1199951171875,
     "price_change_pct": 2.7382789629059032,
-    "volume_ratio": 0.9809193027192192,
+    "volume_ratio": 0.982736805082324,
     "rsi": 61.955015167687804,
     "signals": [
       "Zelena sviecka",
@@ -23621,8 +23621,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK, RS +2.1%",
     "first_seen": "2026-08-04T19:16:00.243090+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 5
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 6
   },
   {
     "ticker": "MGNX",
@@ -23912,7 +23912,7 @@
     "probability": "VYSOKA",
     "close_price": 86.02999877929688,
     "price_change_pct": 2.246255530495,
-    "volume_ratio": 1.5193016603494063,
+    "volume_ratio": 1.5270925104346433,
     "rsi": 42.03474232905141,
     "signals": [
       "Zelena sviecka",
@@ -24000,8 +24000,8 @@
     "tier": "C",
     "tier_reason": "Blizke earnings: Pozor: earnings o 0 dni",
     "first_seen": "2026-10-15T21:00:47.002063+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 1
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "CHRW",
@@ -24576,7 +24576,7 @@
     "probability": "VYSOKA",
     "close_price": 178.39999389648438,
     "price_change_pct": 3.348394706750498,
-    "volume_ratio": 0.8864194413903597,
+    "volume_ratio": 0.8892655922419486,
     "rsi": 24.39714064464117,
     "signals": [
       "Zelena sviecka",
@@ -24661,8 +24661,8 @@
     "tier": "A",
     "tier_reason": "Silny setup: fundamenty OK",
     "first_seen": "2026-10-15T17:59:16.363726+00:00",
-    "last_seen": "2026-10-15T21:00:47.001943+00:00",
-    "scan_count": 2
+    "last_seen": "2026-10-15T23:36:37.453153+00:00",
+    "scan_count": 3
   },
   {
     "ticker": "SRE",
