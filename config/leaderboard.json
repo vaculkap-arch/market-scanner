@@ -12710,7 +12710,7 @@
     "probability": "VELMI VYSOKA",
     "close_price": 248.50999450683594,
     "price_change_pct": 3.3305590465014294,
-    "volume_ratio": 2.0924950649931096,
+    "volume_ratio": 2.0927818540727774,
     "rsi": 66.64616179891445,
     "signals": [
       "Objemovy spike",
@@ -12779,7 +12779,7 @@
     "entry_action": "cakat_pullback",
     "entry_summary": "Cakat na pullback k MA20/podpore | ideal $238.47 (zona $233.71-$243.24) | stop $226.69 | ciel $250.40 (R/R 1.0)",
     "market_bull": false,
-    "market_regime": "bear (SPY $763.23 < MA50 $767.40)",
+    "market_regime": "bear (SPY $763.25 < MA50 $767.40)",
     "relative_strength_pct": 5.3,
     "pct_above_ma20": 4.21,
     "extended": false,
@@ -12793,10 +12793,10 @@
     "news_score": 0.0,
     "sentiment_summary": "Spravy: neutralny (0 clankov)",
     "tier": "C",
-    "tier_reason": "Bear rezim: bear (SPY $763.23 < MA50 $767.40)",
+    "tier_reason": "Bear rezim: bear (SPY $763.25 < MA50 $767.40)",
     "first_seen": "2026-10-16T20:25:47.763996+00:00",
-    "last_seen": "2026-10-16T20:25:47.763984+00:00",
-    "scan_count": 1
+    "last_seen": "2026-10-16T23:14:56.386128+00:00",
+    "scan_count": 2
   },
   {
     "ticker": "AAPL",
@@ -14324,7 +14324,7 @@
     "probability": "VYSOKA",
     "close_price": 389.1000061035156,
     "price_change_pct": 2.032253802533387,
-    "volume_ratio": 0.714210369309707,
+    "volume_ratio": 0.714489588926675,
     "rsi": 68.9513091330361,
     "signals": [
       "Zelena sviecka",
@@ -14393,7 +14393,7 @@
     "entry_action": "vstup_teraz",
     "entry_summary": "Vstup teraz pri aktualnej cene | ideal $389.10 (zona $383.37-$392.99) | stop $354.02 | ciel $408.56 (R/R 0.6)",
     "market_bull": false,
-    "market_regime": "bear (SPY $763.23 < MA50 $767.40)",
+    "market_regime": "bear (SPY $763.25 < MA50 $767.40)",
     "relative_strength_pct": 8.61,
     "pct_above_ma20": 4.79,
     "extended": false,
@@ -14407,10 +14407,10 @@
     "news_score": 0.0,
     "sentiment_summary": "Spravy: neutralny (0 clankov)",
     "tier": "C",
-    "tier_reason": "Bear rezim: bear (SPY $763.23 < MA50 $767.40)",
+    "tier_reason": "Bear rezim: bear (SPY $763.25 < MA50 $767.40)",
     "first_seen": "2026-10-08T19:39:56.533882+00:00",
-    "last_seen": "2026-10-16T20:25:47.763984+00:00",
-    "scan_count": 3
+    "last_seen": "2026-10-16T23:14:56.386128+00:00",
+    "scan_count": 4
   },
   {
     "ticker": "PCG",
